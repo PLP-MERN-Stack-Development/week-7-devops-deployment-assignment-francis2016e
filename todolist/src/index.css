@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.todo-list {
+  width: 300px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+.Todo-list  {
+  text-align: center;
+  color: #333;
+  padding: 40px;
+}
+ ul {
+  list-style: none;
+  padding: 0;
+}
+.output {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.todo-list li:last-child {
+  border-bottom: none;
+}
+ button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e60000;
+}   
+.create {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon{
+  margin-right: 15px;
+  font-size: 15px;
+
+}
+
+.task div span{
+  margin: 0px 5px 0px 4px
+}
+
+.task div .icon{
+  cursor:pointer
+}
